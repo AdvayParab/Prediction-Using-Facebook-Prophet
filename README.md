@@ -23,16 +23,18 @@ After training the model, it’s time to make predictions. Prophet enables users
 Visualization is essential in understanding forecasts. Prophet offers built-in visualization functions to help plot both the forecasted values and their components.
 9. Interpreting Forecast Components
 Prophet divides the forecast into trend, seasonality, and holiday components, which give valuable insights into stock price movements.
-Each component offers unique insights:
 
-Trend shows the long-term direction of the stock.
-Seasonality identifies recurring patterns, which can be daily, weekly, or annual.
-Holidays (if applicable) account for irregular events that may impact stock prices.
+Each component offers unique insights:
+>Trend shows the long-term direction of the stock.
+>Seasonality identifies recurring patterns, which can be daily, weekly, or annual.
+>Holidays (if applicable) account for irregular events that may impact stock prices.
+
 10. Limitations of Prophet in Stock Market Forecasting
 While Facebook Prophet is a powerful forecasting tool, it does have limitations:
 Not Designed for High Volatility: Prophet is primarily built for data with consistent patterns. Stock prices, especially short-term, can be volatile and may not align with the assumptions of the model.
 Lack of Market Sentiment Analysis: The model does not account for market sentiment, which can heavily influence stock prices.
 Limited Handling of External Variables: Prophet focuses on time-series data, not on external factors like economic indicators, which may also impact stock trends.
-11. Conclusion
+
+12. Conclusion
 Facebook Prophet offers a user-friendly, flexible, and effective tool for time-series forecasting, making it an excellent choice for beginners and advanced users alike. By combining Titan stock data with libraries like pandas, numpy, matplotlib, and yfinance, we have shown how Prophet can help predict stock trends. However, due to its limitations, it’s essential to treat these predictions as one part of a broader analysis strategy, possibly incorporating other tools to capture market sentiment and external variables.
 
